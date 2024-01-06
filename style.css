@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: rgb(105, 105, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+}
+
+.virus990 {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+.nav-bar a {
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: 1s;
+}
+
+
+.header a:hover ,
+a.active  {
+    color: aqua;
+}
+
+
+
+.home-div {
+    display: flex;
+}
+
+
+.home-div img {
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 0px;
+}
+
+.home-div-h1-h4 {
+    display: inline;
+}
+
+.home-div h1 {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(13, 104, 104);
+    padding-top: 230px;
+    padding-left: 30px;
+}
+
+
+.home-div-h1-h4 h4 {
+    color: blue;
+    text-decoration: line-through;
+    font-size: 20px;
+    padding-left: 170px;
+}
+
+.logo {
+    width: 70%;
+    padding-top: 60px;
+    padding-left: 350px;
+}
+
+.services-section {
+    display: inline;
+}
+
+
+.services-section h1 {
+    font-size: 60px;
+    color: rgb(124, 141, 255);
+    padding-top: 400px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.services-div-programmer {
+    display: flex;
+}
+
+.services-div-programmer img {
+    width: 35%;
+}
+
+.services-div-programmer p {
+    font-size: 1.3em;
+    padding-top: 200px;
+}
+
+.services-section span {
+    color: red;
+    font-weight: 900;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.services-div-editing {
+    display: flex;
+}
+
+.services-div-editing img {
+    width: 35%;
+}
+
+.services-div-editing p {
+    font-size: 1.3em;
+    padding-top: 200px;
+}
+
+
+.services-div-creations {
+    display: flex;
+}
+
+.services-div-creations img {
+    width: 35%;
+}
+
+.services-div-creations p {
+    font-size: 1.3em;
+    padding-top: 200px;
+}
+
+
+.services-div-presentations {
+    display: flex;
+}
+
+.services-div-presentations img {
+    width: 35%;
+}
+
+.services-div-presentations p {
+    font-size: 1.3em;
+    padding-top: 200px;
+}
+
+
+.aboutme-h1 {
+    color: rgb(124, 141, 255);
+    font-size: 60px;
+    padding-top: 400px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.aboutme-div {
+    display: flex;
+}
+
+.aboutme-div p {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 70px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}

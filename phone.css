@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+
+
+header a {
+    margin-left: 11px;
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header a:hover {
+    color: aqua;
+    font-size: large;
+    transition: 0.6s;
+}
+
+div h1 {
+    padding-top: 60px;
+    color:  rgb(13, 104, 104);
+    text-align: center;
+}
+
+
+div h4 {
+    color: blue;
+    font-size: small;
+    text-align: center;
+    padding-left: 50px;
+    text-decoration: line-through;
+}
+
+img {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.logo {
+    padding-top: 30px;
+    
+}
+
+.services-title {
+    padding-top: 400px;
+    text-align: center;
+    color: rgb(124, 141, 255);
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.services-div1 {
+    display: inline;
+}
+
+
+.services-div1 img {
+    width: 100%;
+}
+
+.services-div1 p {
+    color: red;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.services-div2 img {
+    width: 100%;
+}
+
+.services-div2 p {
+    color: red;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.services-div3 img {
+    width: 100%;
+}
+
+.services-div3 p {
+    color: red;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.services-div4 img {
+    width: 100%;
+}
+
+.services-div4 p {
+    color: red;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutme-title {
+    padding-top: 400px;
+    text-align: center;
+    color: rgb(124, 141, 255);
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutme-div p {
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+
+.no {
+    padding-top: 100px
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
